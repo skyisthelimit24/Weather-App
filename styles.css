@@ -1,0 +1,71 @@
+::before,
+::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(224, 224, 224, 0.637);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 105px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  font-family: montserrat, sans-serif;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0058b6;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 200ms ease-in;
+}
+button:hover {
+  background-color: #007bff;
+}
+#location {
+  font-size: 1.6rem;
+}
+#temperature {
+  font-size: 2rem;
+}
+
+.weather-info {
+  margin: 20px 0;
+}
+
+.weather-info p {
+  margin: 20px 0;
+}
+#weatherIcon {
+  filter: drop-shadow(2px 4px 6px black); /* Adds a shadow to the icon */
+  border: 2px solid white;
+  border-radius: 50%; /* Makes the border rounded */
+}
